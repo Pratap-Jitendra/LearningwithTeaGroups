@@ -25,7 +25,7 @@ const Course = () => {
         <div className='box'>
             <img src={logo1} alt="course"/>
             <p className='caption'>CLASS VI-XTH ALL SUBJECTS ONLINE</p>
-            <p className='credit'>By Archna Sinha  & Jyoti Mishra</p>
+            <p className='credit'>By Archna Sinha  & Jyoti Mishra from Delhi..</p>
             <p><FaPhone/> +91 99580 90566</p>
         </div>
       </div>

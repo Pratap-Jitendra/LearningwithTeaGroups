@@ -21,7 +21,7 @@ const Nav = () => {
         <ul>
           <li><Link to="/">HOME</Link></li>
           <li><Link to="/about">ABOUT</Link></li>
-          <li><Link to="/reg">REGISTRATION</Link></li>
+          <li><Link to="/reg">CONTACT</Link></li>
           <li><FaPhone/> 9958090566</li>
          
         </ul>

@@ -10,7 +10,7 @@ const About = () => {
 
                 <div className='leftside'>
                     <h3>Computer Fundamentals</h3>
-                   <h4>VI to Xth Online Classes</h4>
+                    <h4>VI to Xth Online Classes</h4>
                     <p>Augmenting your skills can get you instantly hired. We help you attain mastery in your domain through our deep learning teaching methodology</p>
                     <p>We Offered: Ms-office, HTML, CSS, PHOTOSHOP and Epsilion.</p>
                     <p>VI to X classes online like HOME Tutaion</p>
@@ -29,12 +29,12 @@ const About = () => {
                     <h4>Sneha Singh from Delhi, Mayur Vihar Extension</h4>
                     <h4>Laxmi Kumari from Ara (Bihar)</h4>
                     <p>Golden opportunity! It’s true I had no technical degree but Motivational faculties <b>[LEARNING WITH TEA GROUPS]</b> gives such a chance. It’s true on beginning too much hesitation and full of fear how is possible to join as a software engineer without having degree. Now, full fill my dream.
-                    Thanks to providing HTML & CSS classes of by <b><u>Mr. Jitendra Pratap</u></b> sir is awesome.</p>
-                       <p className='right'>Thanks<br/>[HTML Programmer]</p>
-                    
+                        Thanks to providing HTML & CSS classes of by <b><u>Mr. Jitendra Pratap</u></b> sir is awesome.</p>
+                    <p className='right'>Thanks<br />[HTML Programmer]</p>
+
                 </div>
                 <div className='rightside'>
-                    <img src={sneha} alt="faculty1"/>
+                    <img src={sneha} alt="faculty1" />
                 </div>
             </div>
 

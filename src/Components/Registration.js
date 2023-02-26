@@ -45,7 +45,7 @@ const [click, setClick]=useState(false)
 
             <h4>Hello! {data.name} Thanks! for interest with "{data.yesno}" Learning with Tea Groups</h4>
             <p>Please take <b>screen shot</b> and mail or whatapp</p>
-            <h3>For mail: Jitendra.pratap205@gmail.com  <Link to="http://www.gmail.com"><FaMailBulk/></Link></h3>
+            <h3>For mail: Jitendra.pratap205@gmail.com <br/> <Link to="http://www.gmail.com"><FaMailBulk/></Link></h3>
             <h3><FaWhatsapp/> +91 99580 90566</h3><br/>
           
            </div>
