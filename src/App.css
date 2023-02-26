@@ -193,172 +193,211 @@ h2 {
 
 .reg {
   margin-top: 0em;
-  width: 100%;
-  height: 80vh;
-  background-color:aqua;
+  width:100%;
+}
+.form9 {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+h1 {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size:125%;
+  text-align: center;
+}
+
+form {
+
+width: 100%;
+height: 80vh;
+background-color:aqua;
+display: flex;
 }
 
 .reg form {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 65vh;
+display: flex;
+margin: auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 65vh;
 
-  background-color: #2596be;
-  border-radius: 5px;
+background-color: #2596be;
+border-radius: 5px;
 }
 
 .reg .form1 {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  background-color: #2596be;
-  border-radius: 5px;
-  color:red;
-  padding:1em;
-  border-radius: 10px;
- display: none;
+display: flex;
+margin: auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 30%;
+background-color: #2596be;
+border-radius: 5px;
+color:red;
+padding:1em;
+border-radius: 10px;
+display: none;
 }
+
 .reg .form2 {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  background-color:#2596be;
-  border-radius: 5px;
-  color:black;
-  padding:1em;
-  border-radius: 10px;
-  
+display: flex;
+margin: auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 40%;
+background-color:#2596be;
+border-radius: 5px;
+color:black;
+padding:1em;
+border-radius: 10px;
+}
+
+img {
+
+width:80%;
+height: 37vh;
+}
+h2 {
+text-align: center;
+margin-top: 0.4em;
+color:darkblue;
+margin-bottom: 0.2em;
+}
+
+input {
+width: 90%;
+padding: 0.6em;
+
+
 
 }
 
 
 form input {
-  width: 80%;
-  padding: 0.7em;
-  margin: 7px;
-  border-radius: 5px;
-  border: 1px solid gray;
+width: 80%;
+padding: 0.7em;
+margin: 7px;
+border-radius: 5px;
+border: 1px solid gray;
 }
 
 form button {
-  padding: 0.5em;
-  color: white;
-  background-color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+padding: 0.5em;
+color: white;
+background-color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
 }
 
 .footer .p1 {
-  background-color: black;
-  color: white;
-  margin: 0px;
-  text-align: center;
-  padding: 2em;
+background-color: black;
+color: white;
+margin: 0px;
+text-align: center;
+padding: 2em;
 }
 
 a {
-  text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 }
 
 .hamburger {
-  display: none;
+display: none;
 }
 
 .course {
-  margin-top: 0em;
-  width: 100%;
-  background-color: gray;
-  
+margin-top: 0em;
+width: 100%;
+background-color: gray;
+
 }
 .course .container
 {
-  display: flex;
+display: flex;
 }
 .course .heading
 {
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size:120%;
-  color:white;
-  background-color:black;
-  padding:1em;
-  width:40%;
-  margin:auto;
-  border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:120%;
+color:white;
+background-color:black;
+padding:1em;
+width:40%;
+margin:auto;
+border-radius: 50px;
 
 }
 .container .box
 {
-  margin: 5px;
-  margin-top:0.5em;
-  background-color: darkcyan;
-  width:30%;
-  border:2px solid white;
-  border-radius: 15px;
-  height:45%;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  padding: 1em;
-  
+margin: 5px;
+margin-top:0.5em;
+background-color: darkcyan;
+width:30%;
+border:2px solid white;
+border-radius: 15px;
+height:45%;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+padding: 1em;
+
 }
 .credit
 {
-  background-color:darkslategrey;
-  font-weight: 500;
-  color:white;
-  border-radius: 5px;
-  padding:0.5em;
-  text-align: center;
+background-color:darkslategrey;
+font-weight: 500;
+color:white;
+border-radius: 5px;
+padding:0.5em;
+text-align: center;
 
 }
 
 
 .container .box img
 {
-  width:50%;
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  border:1px solid white;
-  border-radius: 50px;
+width:50%;
+display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+border:1px solid white;
+border-radius: 50px;
 }
 .caption
 {
-  background-color:black;
-  color:white;
-  font-weight: 500;
-  padding: 0.5em;
-  border-radius: 10px;
-  width:80%;
-  text-align: center;
+background-color:black;
+color:white;
+font-weight: 500;
+padding: 0.5em;
+border-radius: 10px;
+width:80%;
+text-align: center;
 }
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 768px) {
 
   .course .container
   {
     flex-direction: column;
    justify-content: center;
    align-items: center;
-   
-    
+      
   }
   .container .box
   {
@@ -489,3 +528,7 @@ a {
 
 
 }
+
+
+
+
