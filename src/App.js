@@ -19,7 +19,7 @@ const Layout = () => {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero heading="Learning with Tea Groups" location="New Delhi"/>
       <Outlet />
       <Course/>
       <Founder/>
