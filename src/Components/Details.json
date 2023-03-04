@@ -1,0 +1,109 @@
+[
+ 
+  {
+      "Code" :"L001",
+      "Name" :"Swati Kumari",
+      "Regs" :"OK",
+      "CV" :"1",
+       "Quiz1":"1",
+      "Quiz2":"1",
+      "Quiz3":"1",
+      "Placement": "Placement Done at Contentra Technology"
+           
+      }, 
+      {
+        "Code" :"L002",
+        "Name" :"Anuradha",
+        "Regs" :"OK",
+        "CV" :"3",
+         "Quiz1":"-1",
+        "Quiz2":"-1",
+        "Quiz3":"-1",
+        "Placement": "Course Not Completed"
+             
+        },
+        {
+            "Code" :"L003",
+            "Name" :"Laxmi",
+            "Regs" :"OK",
+            "CV" :"3",
+             "Quiz1":"-1",
+            "Quiz2":"-1",
+            "Quiz3":"-1",
+            "Placement": "Course Not Completed"
+                 
+            },
+            {
+                "Code" :"L004",
+                "Name" :"Sneha",
+                "Regs" :"OK",
+                "CV" :"2",
+                 "Quiz1":"-1",
+                "Quiz2":"-1",
+                "Quiz3":"-1",
+                "Placement": "Course Not Completed"
+                     
+                },
+                {
+                    "Code" :"L005",
+                    "Name" :"Nidhi Pratap",
+                    "Regs" :"OK",
+                    "CV" :"3",
+                     "Quiz1":"-1",
+                    "Quiz2":"-1",
+                    "Quiz3":"-1",
+                    "Placement": "Course Not Completed"
+                         
+                    },
+                    {
+                        "Code" :"L006",
+                        "Name" :"Aniket",
+                        "Regs" :"OK",
+                        "CV" :"3",
+                         "Quiz1":"1",
+                        "Quiz2":"1",
+                        "Quiz3":"1",
+                        "Placement": "Planman Technology, Okhla"
+                             
+                        },
+                        {
+                            "Code" :"L007",
+                            "Name" :"Neha Kumari",
+                            "Regs" :"OK",
+                            "CV" :"1",
+                             "Quiz1":"-1",
+                            "Quiz2":"-1",
+                            "Quiz3":"-1",
+                            "Placement": "Course Not Completed"
+                                 
+                            },
+                            {
+                                "Code" :"L008",
+                                "Name" :"Anjali",
+                                "Regs" :"OK",
+                                "CV" :"2",
+                                 "Quiz1":"-1",
+                                "Quiz2":"-1",
+                                "Quiz3":"-1",
+                                "Placement": "Course Not Completed"
+                                     
+                                },
+                                {
+                                    "Code" :"L009",
+                                    "Name" :"Suraj",
+                                    "Regs" :"OK",
+                                    "CV" :"WIP",
+                                     "Quiz1":"-1",
+                                    "Quiz2":"-1",
+                                    "Quiz3":"-1",
+                                    "Placement": "Course Not Completed"
+                                         
+                                    }
+                        
+                    
+                
+            
+        
+    
+  
+    ]

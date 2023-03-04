@@ -13,6 +13,7 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Founder from './Components/Founder';
 import Course from './Components/Course';
+import Students from './Components/Students';
 
 
 const Layout = () => {
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout />,
     
+   
     children: [
 
       {
@@ -43,6 +45,10 @@ const router = createBrowserRouter([
         path: "/course",
         element: <Course />
       },
+     {
+       path: "/students",
+      element: <Students />,
+    },
       {
         path: "/reg",
         element: <Registration />
