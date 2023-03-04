@@ -24,7 +24,7 @@ const Nav = () => {
           <li><Link to="/course">COURSE</Link></li>
           <li><Link to="/about">ABOUT</Link></li>
           <li><Link to="/reg">SIGN UP</Link></li>
-          <li><Link to="https://wa.me/09958090566" target="_blank"><FaWhatsapp/></Link></li>
+          <li><Link to="https://wa.me/919958090566" target="_blank"><FaWhatsapp/></Link></li>
          
          
         </ul>

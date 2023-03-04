@@ -44,7 +44,7 @@ const [click, setClick]=useState(false)
            <div className={click ? "form2":"form1"}>
 
             <h4>Hello! {data.name} Thanks! for interest with "{data.yesno}" Learning with Tea Groups</h4>
-            <p>Please take <b>screen shot</b> and mail or <Link to="https://wa.me/09958090566" target="_blank"><FaWhatsapp/></Link></p>
+            <p>Please take <b>screen shot</b> and mail or <Link to="https://wa.me/919958090566" target="_blank"><FaWhatsapp/></Link></p>
             <h4><Link to="http://www.gmail.com" target="_blank"><FaMailBulk/></Link> Jitendra.pratap205@gmail.com <br/> </h4>
             
           
