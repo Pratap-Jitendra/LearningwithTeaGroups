@@ -8,7 +8,7 @@ const Course = () => {
   return (
     <div className='course'>
         <p className='heading'>Our Popular Courses</p>
-      <div class="container">
+      <div className="container">
 
         <div className='box'>
             <img src={second} alt="course"/>

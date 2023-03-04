@@ -21,7 +21,7 @@ const Layout = () => {
       <Nav />
       <Hero heading="Learning with Tea Groups" location="New Delhi"/>
       <Outlet />
-      <Course/>
+  
       <Founder/>
       <Footer/>
 
@@ -38,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />
+      },
+      {
+        path: "/course",
+        element: <Course />
       },
       {
         path: "/reg",
