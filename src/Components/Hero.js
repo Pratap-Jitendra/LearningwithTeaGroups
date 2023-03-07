@@ -8,7 +8,7 @@ const Hero = (props) => {
         <img src={second} alt="mainimage"/>
       </div>
       <div className='herocontents'>
-      <h3 className='btn'><Link to="/reg">REGISTRATION</Link></h3>
+      <h3 className='btn'><Link to="/reg">REGISTRATION </Link></h3>
       <h1>{props.heading}</h1>
       <h2>{props.location}</h2>
       </div>

@@ -48,6 +48,12 @@
   cursor: pointer;
 
 }
+.navlist ul li a{
+  color: white;
+ 
+
+}
+
 
 
 .navlist ul li:hover {
@@ -69,7 +75,7 @@
 
 .heroimage {
   width: 100%;
- 
+
   /* position: relative; */
 }
 
@@ -84,9 +90,9 @@
 }
 
 .hero .herocontents {
-position: absolute;
-top:16em;
-left:4em;
+  position: absolute;
+  top: 11em;
+  left: 4em;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -159,13 +165,13 @@ left:4em;
   margin-bottom: 1px;
 }
 
-h3.btn {
-  background-color: transparent;
+ .btn {
+
   border-radius: 5px;
   padding: 1em;
-  color: black;
+  color:red;
   font-weight: bold;
-  border: 1px solid gold;
+  border: 5px solid gold;
   border: none;
 
 }
@@ -207,65 +213,79 @@ h2 {
 
 
 form {
-  padding:0.2em;
-width: 100%;
-height: 80vh;
-background-color:aqua;
-display: flex;
+  padding: 0.2em;
+  width: 100%;
+  height: 80vh;
+  background-color: aqua;
+  display: flex;
 }
+
 .reg {
- 
-  width:100%;
-  background-color:cadetblue;
+
+  width: 100%;
+  background-color: cadetblue;
   display: flex;
   margin-bottom: 0px;
 
 }
-.reg form {
-display: flex;
-margin: auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 50%;
-height: 65vh;
 
-background-color: #2596be;
-border-radius: 5px;
+.reg form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 65vh;
+
+  background-color: #2596be;
+  border-radius: 5px;
 }
 
 .reg .form1 {
-display: flex;
-margin: auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 30%;
-background-color: #2596be;
-border-radius: 5px;
-color:red;
-padding:1em;
-border-radius: 10px;
-display: none;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background-color:white;
+  border-radius: 5px;
+  color: red;
+  padding: 1em;
+  border-radius: 10px;
+  display: none;
 }
 
 .reg .form2 {
-display: flex;
-margin: auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 40%;
-background-color:#2596be;
-border-radius: 5px;
-color:black;
-padding:1em;
-border-radius: 10px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color:white;
+  border-radius: 25px;
+  color: black;
+  padding: 1em;
+  border-radius: 10px;
+}
+.reg .form2 img
+{
+  width:100px;
+  margin-top:-16px;
+  
+  
+}
+span.red
+{
+  color:red;
+  font-weight: bold;
 }
 
 input {
-width: 90%;
-padding: 0.6em;
+  width: 90%;
+  padding: 0.6em;
 }
 
 
@@ -273,168 +293,167 @@ padding: 0.6em;
 
 
 form input {
-width: 80%;
-padding: 0.7em;
-margin: 7px;
-border-radius: 5px;
-border: 1px solid gray;
+  width: 80%;
+  padding: 0.7em;
+  margin: 7px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
 
 form button {
-padding: 0.5em;
-color: white;
-background-color: black;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+  padding: 0.5em;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-form button:hover
-{
+form button:hover {
   background-color: blue;
-  color:white;
+  color: white;
 }
 
 .footer .p1 {
-background-color: black;
-color: white;
-margin: 0px;
-text-align: center;
-padding: 2em;
+  background-color: black;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding: 2em;
 }
 
 a {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  
 }
 
 .hamburger {
-display: none;
+  display: none;
 }
 
 .course {
-margin-top: 0em;
-width: 100%;
-background-color:white;
-
-}
-.course .container
-{
-display: flex;
-}
-.course .heading
-{
-margin-top:1em;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size:120%;
-color:white;
-background-color:black;
-padding:1em;
-
-margin:auto;
-border-radius: 5px;
-
-}
-.container .box
-{
-margin: 5px;
-margin-top:0.5em;
-background-color: darkcyan;
-width:30%;
-border:2px solid white;
-border-radius: 15px;
-height:45%;
-display: flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;
-padding: 1em;
-
-}
-.credit
-{
-background-color:darkslategrey;
-font-weight: 500;
-color:white;
-border-radius: 5px;
-padding:0.5em;
-text-align: center;
+  margin-top: 0em;
+  width: 100%;
+  background-color: white;
 
 }
 
-
-.container .box img
-{
-width:50%;
-display: flex;
-margin: auto;
-justify-content: center;
-align-items: center;
-border:1px solid white;
-border-radius: 50px;
-}
-.caption
-{
-background-color:black;
-color:white;
-font-weight: 500;
-padding: 0.5em;
-border-radius: 10px;
-width:80%;
-text-align: center;
-}
-.students
-{
-  margin:0;
+.course .container {
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: cyan;
-padding:1em;
 }
-.students table
-{
-  width:95%;
+
+.course .heading {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120%;
+  color: white;
+  background-color: black;
+  padding: 1em;
+
+  margin: auto;
+  border-radius: 5px;
+
+}
+
+.container .box {
+  margin: 5px;
+  margin-top: 0.5em;
+  background-color: darkcyan;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+
+}
+
+.credit {
+  background-color: darkslategrey;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em;
+  text-align: center;
+
+}
+
+
+.container .box img {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.caption {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 0.5em;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.students {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  padding: 1em;
+}
+
+.students table {
+  width: 95%;
   text-align: center;
   background-color: blue;
-  color:white;
-  border:1px solid yellow;
-  padding:1em;
+  color: white;
+  border: 1px solid yellow;
+  padding: 1em;
   border-collapse: collapse;
 }
-td, th
-{
-  border:1px solid white;
+
+td,
+th {
+  border: 1px solid white;
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
 
-  .course .container
-  {
+  .course .container {
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
-      
+    justify-content: center;
+    align-items: center;
+
   }
-  .container .box
-  {
-    width:90%;
+
+  .container .box {
+    width: 90%;
   }
-  .reg .form2
-  {
-    width:75%;
+
+  .reg .form2 {
+    width: 75%;
     margin-top: 0.5em;
     margin-bottom: 1em;
   }
+
   .hamburger {
     display: inline;
     position: absolute;
     right: 8%;
-    top: 17%;
+    top: 10%;
   }
 
   .about .container {
@@ -458,22 +477,24 @@ td, th
     padding: 1em;
 
   }
+
   .rightsidef {
 
     width: 80%;
     padding: 1em;
 
   }
-.reg
-{
-  flex-direction: column;
-  height:auto;
-}
+
+  .reg {
+    flex-direction: column;
+    height: auto;
+  }
+
   .reg form {
 
     width: 82%;
-    height:80%;
-   
+    height: 80%;
+
   }
 
   input {
@@ -484,7 +505,7 @@ td, th
     width: 46%;
     height: 45%;
     flex-direction: column;
-   left: 0%;
+    left: 0%;
 
 
   }
@@ -492,7 +513,7 @@ td, th
 
   .active {
 
-    left: -34%;
+    left: -36%;
     transition: 2s ease-in-out;
     height: 5%;
   }
@@ -518,23 +539,22 @@ td, th
     border-radius: 50px;
   }
 
-  .navlist
-  {
-    width: 65%;
+  .navlist {
+    width: 68%;
     display: flex;
     flex-direction: column;
-    justify-content:left; 
-    align-items:left;
+    justify-content: left;
+    align-items: left;
   }
-.afterclick
-{
-  opacity: 0;
-}
- 
+
+  .afterclick {
+    opacity: 0;
+  }
+
 
   .navlist ul {
 
-    flex-direction:column;
+    flex-direction: column;
     justify-content: left;
     align-items: left;
 
@@ -552,7 +572,3 @@ td, th
 
 
 }
-
-
-
-
