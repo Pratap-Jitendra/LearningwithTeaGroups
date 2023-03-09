@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import learing from '../image/learning.png';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes, FaWhatsapp } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import '../App.css';
 
 const Nav = () => {
@@ -25,7 +25,7 @@ const Nav = () => {
           <li><Link to="/about">ABOUT</Link></li>
           <li><Link to="/students">STUDENTS</Link></li>
           <li><Link to="/reg">SIGN UP</Link></li>
-          <li><Link to="https://wa.me/919958090566" target="_blank"><FaWhatsapp/></Link></li>
+          <li><Link to="https://wa.me/919958090566" target="_blank">CONTACT</Link></li>
          
          
         </ul>
