@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import learing from '../image/learning.png';
+import learing from '../image/logo.jpeg';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../App.css';

@@ -1,6 +1,7 @@
 import React from 'react'
 import sneha from '../image/sneha.jpeg'
 import logo2 from '../image/project.jpg';
+import front from '../image/front.jpeg';
 
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
                     <p>VI to X classes online like HOME Tutaion</p>
                 </div>
                 <div className='rightside'>
-                    <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="faculty1" />
+                    <img src={front} alt="faculty1" />
                 </div>
             </div>
 

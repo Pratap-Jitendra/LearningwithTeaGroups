@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPhone } from 'react-icons/fa';
 import first from '../image/first.jpg';
-import second from '../image/second.jpg';
+import second from '../image/front.jpeg';
 import logo1 from '../image/online.jpg';
 
 const Course = () => {
