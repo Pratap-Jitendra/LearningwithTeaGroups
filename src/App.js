@@ -13,7 +13,7 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Founder from './Components/Founder';
 import Course from './Components/Course';
-import Students from './Components/Students';
+import IDS from './Components/IDS';
 
 
 const Layout = () => {
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
       },
      {
        path: "/students",
-      element: <Students />,
+      element: <IDS />,
     },
       {
         path: "/reg",

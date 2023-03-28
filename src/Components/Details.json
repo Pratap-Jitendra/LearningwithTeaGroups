@@ -2,9 +2,9 @@
     {
         "Code": "L001",
         "Name": "Swati Kumari",
-        "Regs": "OK",
-        "CV": "1",
-        "Quiz1": "1",
+        "DOJ": "14-02-2023",
+        "Remark": "Excellent",
+        "img": "../image/swati.jpeg",
         "Quiz2": "1",
         "Quiz3": "1",
         "Placement": "Placement Done at Contentra Technology"
@@ -12,9 +12,9 @@
     {
         "Code": "L002",
         "Name": "Anuradha",
-        "Regs": "OK",
-        "CV": "3",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Very Good",
+       "img": "../image/kitu.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -22,9 +22,9 @@
     {
         "Code": "L003",
         "Name": "Laxmi",
-        "Regs": "OK",
-        "CV": "3",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Excellent",
+       "img": "../image/laxmi.jpg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -32,9 +32,9 @@
     {
         "Code": "L004",
         "Name": "Sneha",
-        "Regs": "OK",
-        "CV": "2",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "GOOD",
+       "img": "../image/sneha.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -42,9 +42,9 @@
     {
         "Code": "L005",
         "Name": "Nidhi Pratap",
-        "Regs": "OK",
-        "CV": "3",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Excellent",
+       "img": "../image/nidhi.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -52,19 +52,19 @@
     {
         "Code": "L006",
         "Name": "Aniket",
-        "Regs": "OK",
-        "CV": "3",
-        "Quiz1": "1",
+        "DOJ": "14-02-2023",
+        "Remark": "Excellent",
+       "img": "../image/Aniket.png",
         "Quiz2": "1",
         "Quiz3": "1",
-        "Placement": "Planman Technology, Okhla"
+        "Placement": "Planman Technology, 14-02-2023hla"
     },
     {
         "Code": "L007",
         "Name": "Neha Kumari",
-        "Regs": "OK",
-        "CV": "2",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Very Good",
+       "img": "../image/neha.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -72,9 +72,9 @@
     {
         "Code": "L008",
         "Name": "Anjali",
-        "Regs": "OK",
-        "CV": "3",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Excellent",
+       "img": "../image/logo.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -82,9 +82,9 @@
     {
         "Code": "L009",
         "Name": "Suraj",
-        "Regs": "OK",
-        "CV": "1",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Very Good",
+       "img": "../image/logo.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -92,9 +92,9 @@
       {
         "Code": "L010",
         "Name": "Priya",
-        "Regs": "--",
-        "CV": "1",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Good",
+       "img": "../image/logo.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -102,9 +102,9 @@
     {
         "Code": "L011",
         "Name": "Supriya",
-        "Regs": "--",
-        "CV": "1",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Excellent",
+       "img": "../image/supriy.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -112,9 +112,9 @@
       {
         "Code": "L012",
         "Name": "Shashwat",
-        "Regs": "OK",
-        "CV": "-1",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "GOOD",
+        "img": "../image/man.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"
@@ -122,9 +122,19 @@
       {
         "Code": "L013",
         "Name": "Muskan Kumari",
-        "Regs": "OK",
-        "CV": "-1",
-        "Quiz1": "-1",
+        "DOJ": "14-02-2023",
+        "Remark": "Good",
+       "img": "../image/logo.jpeg",
+        "Quiz2": "-1",
+        "Quiz3": "-1",
+        "Placement": "Course Not Completed"
+    },
+    {
+        "Code": "L014",
+        "Name": "Rajnish Kumar",
+        "DOJ": "24-03-2023",
+        "Remark": "Excellent",
+       "img": "../image/Rajnish.jpeg",
         "Quiz2": "-1",
         "Quiz3": "-1",
         "Placement": "Course Not Completed"

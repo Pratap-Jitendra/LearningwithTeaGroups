@@ -48,9 +48,10 @@
   cursor: pointer;
 
 }
-.navlist ul li a{
+
+.navlist ul li a {
   color: white;
- 
+
 
 }
 
@@ -165,11 +166,11 @@
   margin-bottom: 1px;
 }
 
- .btn {
+.btn {
 
   border-radius: 5px;
   padding: 1em;
-  color:red;
+  color: red;
   font-weight: bold;
   border: 5px solid gold;
   border: none;
@@ -249,7 +250,7 @@ form {
   justify-content: center;
   align-items: center;
   width: 30%;
-  background-color:white;
+  background-color: white;
   border-radius: 5px;
   color: red;
   padding: 1em;
@@ -264,22 +265,22 @@ form {
   justify-content: center;
   align-items: center;
   width: 40%;
-  background-color:white;
+  background-color: white;
   border-radius: 25px;
   color: black;
   padding: 1em;
   border-radius: 10px;
 }
-.reg .form2 img
-{
-  width:100px;
-  margin-top:-16px;
-  
-  
+
+.reg .form2 img {
+  width: 100px;
+  margin-top: -16px;
+
+
 }
-span.red
-{
-  color:red;
+
+span.red {
+  color: red;
   font-weight: bold;
 }
 
@@ -324,7 +325,7 @@ form button:hover {
 
 a {
   text-decoration: none;
-  
+
 }
 
 .hamburger {
@@ -410,29 +411,88 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: cyan;
   padding: 1em;
+  width: 98%;
+
 }
 
-.students table {
-  width: 95%;
-  text-align: center;
+.students .upper {
   background-color: blue;
+  width: 98%;
   color: white;
-  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1em;
-  border-collapse: collapse;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
-td,
-th {
-  border: 1px solid white;
+.students .upper input {
+  width: 35%;
+  border-radius: 5px;
+  font-weight: bold;
+
+  color: black;
+  margin-top: 0.5em;
+}
+
+.students .below {
+  border-bottom: 2px solid blue;
+  width: 94.6%;
+  max-height: 70%;
+  
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+
+
+
+.students .below .record {
+  width: 35%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  padding: 0.5em;
+  background-color: chartreuse;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  
+}
+
+.students .below .record img {
+  display: flex;
+  margin: auto;
+  width: 15%;
   text-align: center;
+  border-radius: 65px;
+  border:2px solid red;
+}
+.students .below .record .logoimg {
+  display: flex;
+  margin: auto;
+  width: 10%;
+  text-align: center;
+  border-radius: 65px;
+  border:2px solid red;
+  
 }
 
 @media screen and (max-width: 768px) {
 
-
+  .students .below .record
+  {
+    width:85%;
+  }
   .heroimage img {
     /* position: absolute; */
     width: 100%;
@@ -442,7 +502,7 @@ th {
     object-fit: cover;
     border-radius: 5px;
   }
-  
+
   .hero .herocontents {
     position: absolute;
     top: 2em;
@@ -453,7 +513,7 @@ th {
     justify-content: center;
     align-items: center;
   }
-  
+
 
   .course .container {
     flex-direction: column;
@@ -492,7 +552,7 @@ th {
   .leftside {
 
     width: 95%;
-    padding:0.5em;
+    padding: 0.5em;
   }
 
   .rightside {
